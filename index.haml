@@ -8,25 +8,57 @@
     %title Document
   %body
     .navbar.navbar-expand-lg.navbar-light.bg-light
-      %img.navbar-brand
-        PD
-      %ul
-        %li
-          Portfolio
-        %li
-          About
-        %li
-          Contact
-    %h1
-      %p
-        Hello I am a software developer! I can help you build a product, featre or website. Look through some of my work and experience! If you like what you see and have project you need coded, don’t hesistate to contact me.
-    .socials
-      .social-text
-        You can also find me here:
-      .social-icons
-        %img(alt="github" src="images/github.svg")
-        %img(alt="github" src="images/linkedin.svg")
-        %img(alt="github" src="images/twitter.svg")
-    %h2
-      My recent projects
-    
+      %a.navbar-brand(href="#")
+        %img
+          PD
+      %a.btn-light(href="#porfolio")
+        Portfolio
+      %a.btn-light(href="#about")
+        About
+      %a.btn-light(href="#contact")
+        Contact
+    %main.pd-3
+      .jumbotron
+        %h1.display-1
+          Pedro Donda
+        %p.lead
+          Hello I am a software developer! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have project you need coded, don’t hesitate to contact me.
+        .socials.container-lg
+          %p
+            You can also find me here:
+          .social-icons.container-lg
+            %img.icon(alt="github" src="images/github.svg")
+            %img.icon(alt="linkedin" src="images/linkedin.svg")
+            %img.icon(alt="twitter" src="images/twitter.svg")
+        %h1#portfolio
+          My recent projects
+        .card.bg-dark.text-white.my-2
+          .card-body
+            %h5.card-title
+              Card Title
+            %img.card-img-top(src="images/storyWEavers-home.png" alt="")
+            %p.card-text
+              Some quick examples
+            .check-project.text-center
+              %a.btn.btn-secondary.col-md-8
+                Check this project
+        .card.bg-dark.text-white.my-2
+          .card-body
+            %h5.card-title
+              Card Title
+            %img.card-img-top(src="images/storyWEavers-home.png" alt="")
+            %p.card-text
+              Some quick examples
+            .check-project.text-center
+              %a.btn.btn-secondary.col-md-8
+                Check this project
+        .card.bg-dark.text-white.my-2
+          .card-body
+            %h5.card-title
+              Card Title
+            %img.card-img-top(src="images/storyWEavers-home.png" alt="")
+            %p.card-text
+              Some quick examples
+            .check-project.text-center
+              %a.btn.btn-secondary.col-md-8
+                Check this project
