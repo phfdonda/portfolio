@@ -1,1 +1,30 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Playfair+Display+SC@1&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;700&display=swap";
 
+h1{
+  line-height: 0.2rem;
+}
+
+.icon{
+  width: 10vmin;
+  height: 10vmin;
+}
+
+.icons{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.poppins{
+  font-family: 'Poppins', sans-serif;
+}
+
+.normal{
+  font-weight: 500;
+}
+
+.bold{
+  font-weight: 700;
+}
