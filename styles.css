@@ -6,6 +6,21 @@ h1{
   line-height: 0.2rem;
 }
 
+p{
+  font-size: 5vmin;
+  word-break: break-word;
+}
+
+.title{
+    font-size: 16vmin;
+    line-height: 12vmin;
+}
+
+.subtitle{
+    font-size: 13vmin;
+    margin-left: 1vmin;
+}
+
 .icon{
   width: 10vmin;
   height: 10vmin;
@@ -27,4 +42,31 @@ h1{
 
 .bold{
   font-weight: 700;
+}
+
+@media (min-width: 560px) {
+  .icon {
+    width: 8vmin;
+    height: 8vmin;
+  }
+}
+
+@media (min-width: 760px) {
+
+  p{
+    font-size: 3vmin;
+  }
+
+  .icon{
+    width: 6vmin;
+    height: 6vmin;
+  }
+
+}
+
+@media (min-width: 960px) {
+.icon {
+  width: 4vmin;
+  height: 4vmin;
+}
 }

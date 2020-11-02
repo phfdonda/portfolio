@@ -12,7 +12,7 @@
       %a.navbar-brand(href="#")
         %img
           PD
-      
+
       %a.btn-light(href="#porfolio")
         Portfolio
       %a.btn-light(href="#about")
@@ -22,16 +22,17 @@
 
     %main.m-3
       .jumbotron
-        %h1.display-1.poppins.bold
-          %span.display-3.poppins.bold
+        .title.poppins.bold
+          .subtitle.poppins.bold
             Pedro
           Donda
-        %p.lead.my-5
-          Hello I'm a Full-Stack developer with a few cards up his sleeve. I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have project you need coded, don’t hesitate to contact me.
-        .socials.container-lg.mb-5
+        %p.my-5
+          Hello!
+          I'm a Full-Stack developer with a few cards up his sleeve. I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have project you need coded, don’t hesitate to contact me.
+        .socials.container
           %p.bold
             You can also find me here:
-          .icons.container-lg.bg-dark.py-4
+          .icons.container-lg.bg-dark.py-4.py-lg-2
             %a{:href => "https://github.com/phfdonda"}
               %img.icon{:alt => "github", :src => "images/github.svg"}/
             %a{:href => "https://www.linkedin.com/in/pedro-donda/"}
@@ -39,49 +40,60 @@
             %a{:href => "https://twitter.com/phfdonda"}
               %img.icon{:alt => "twitter", :src => "images/twitter.svg"}/
 
-      %h1#portfolio.my-4.display-4
-        My recent projects
+      %div#portfolio.container-fluid.jumbotron
+        .row
+          %h1.my-4.display-4
+            My Portfolio
+        .row
+          .col-md
+            .card.my-2.bg-dark.text-white
+              .card-body
+                %h2.card-title.poppins.normal
+                  Story Weavers
 
-        .card.my-2
-          .card-body
-            %h2.card-title.poppins.normal
-              Story Weavers
+                %img.card-img-top(src="images/storyWEavers-home.png" alt="")
+                .icons.p-3
+                  %img.icon(alt="html" src="images/html5.svg")
+                  %img.icon(alt="html" src="images/css3.svg")
+                  %img.icon(alt="html" src="images/ruby.svg")
+                  %img.icon(alt="html" src="images/rails.svg")
 
-            %img.card-img-top(src="images/storyWEavers-home.png" alt="")
-            .icons.p-3
-              %img.icon(alt="html" src="images/html5.svg")
-              %img.icon(alt="html" src="images/css3.svg")
-              %img.icon(alt="html" src="images/ruby.svg")
-              %img.icon(alt="html" src="images/rails.svg")
+                .check-project.text-center
+                  %a.btn.btn-secondary.btn-lg.col-md-8
+                    Check this project
+          .col-md
+            .card.my-2.bg-dark.text-white
+              .card-body
+                %h2.card-title
+                  Card Title
 
-            .check-project.text-center
-              %a.btn.btn-secondary.btn-lg.col-md-8
-                Check this project
-
-        .card.my-2
-          .card-body
-            %h2.card-title
-              Card Title
-
-            %img.card-img-top(src="images/adoptmeow.jpg" alt="")
-            .icons.p-3
-              %img.icon(alt="html" src="images/html5.svg")
-              %img.icon(alt="html" src="images/css3.svg")
-              %img.icon(alt="html" src="images/ruby.svg")
-              %img.icon(alt="html" src="images/rails.svg")
-            .check-project.text-center
-              %a.btn.btn-secondary.btn-lg.col-md-8
-                Check this project
-
-        .card.my-2
-          .card-body
-            %h2.card-title
-              Card Title
-            %img.card-img-top(src="images/storyWEavers-home.png" alt="")
-            .icons.p-3
-              %img.icon(alt="html" src="images/html5.svg")
-              %img.icon(alt="html" src="images/css3.svg")
-              %img.icon(alt="html" src="images/ruby.svg")
-            .check-project.text-center
-              %a.btn.btn-secondary.btn-lg.col-md-8
-                Check this project
+                %img.card-img-top(src="images/adoptmeow.jpg" alt="")
+                .icons.p-3
+                  %img.icon(alt="html" src="images/html5.svg")
+                  %img.icon(alt="html" src="images/css3.svg")
+                  %img.icon(alt="html" src="images/ruby.svg")
+                  %img.icon(alt="html" src="images/rails.svg")
+                .check-project.text-center
+                  %a.btn.btn-secondary.btn-lg.col-md-8
+                    Check this project
+          .col-md
+            .card.my-2.bg-dark.text-white
+              .card-body
+                %h2.card-title
+                  Card Title
+                %img.card-img-top(src="images/storyWEavers-home.png" alt="")
+                .icons.p-3
+                  %img.icon(alt="html" src="images/html5.svg")
+                  %img.icon(alt="html" src="images/css3.svg")
+                  %img.icon(alt="html" src="images/ruby.svg")
+                .check-project.text-center
+                  %a.btn.btn-secondary.btn-lg.col-md-8
+                    Check this project
+      %div#about.container-fluid.jumbotron
+        .row
+          %h1.my-4.display-4
+            About me
+        .row
+          .col
+            %p
+              TextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextText
