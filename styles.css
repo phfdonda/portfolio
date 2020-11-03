@@ -7,8 +7,18 @@ h1{
 }
 
 p{
-  font-size: 5vmin;
+  font-size: 4vmin;
   word-break: break-word;
+  line-height: 7vmin;
+}
+
+
+
+.jumbotron{
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .title{
@@ -36,6 +46,7 @@ p{
   font-family: 'Poppins', sans-serif;
 }
 
+
 .normal{
   font-weight: 500;
 }
@@ -49,12 +60,15 @@ p{
     width: 8vmin;
     height: 8vmin;
   }
+  p{
+  font-size: 3vmin;
+  }
 }
 
 @media (min-width: 760px) {
 
   p{
-    font-size: 3vmin;
+    font-size: 2vmin;
   }
 
   .icon{
