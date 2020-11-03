@@ -8,40 +8,38 @@
     %title Document
 
   %body
-    .navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top
-      %a.navbar-brand(href="#")
-        %img
-          PD
-
-      %a.btn-light(href="#porfolio")
-        Portfolio
-      %a.btn-light(href="#about")
-        About
-      %a.btn-light(href="#contact")
-        Contact
+    .navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top.m-0
+      .row.d-flex.container-fluid
+        .col-1
+          %a.navbar-brand.m-0(href="#")
+            %img
+              PD
+        .col-10.poppins.bold.d-flex.align-items-center.justify-content-around.justify-content-lg-end
+          %a.btn-light.mx-lg-3(href="#portfolio")
+            Portfolio
+          %a.btn-light.mx-lg-3(href="#about")
+            About
+          %a.btn-light.mx-lg-3(href="#contact")
+            Contact
 
     %main.m-3
       .jumbotron
-        .row
-          .col
-            .title.poppins.bold.mt-3.mx-auto.ml-lg-0
-              .subtitle.poppins.bold
-                Pedro
-              Donda
-        .row
-          .col.col-md-8
-            %p.my-5text-center
-              Hello!<br>
-              I'm a Full-Stack developer with a few cards up his sleeve.<br>
-              I can help you build a product, feature or website. Look through some of my work and experience! <br>
-              If you like what you see and have project you need coded, don’t hesitate to contact me.
-        .row
-          .col
-            .socials.container
-              %p.bold
-                You can also find me here:
-              .icons.container-lg.bg-dark.py-4.py-lg-2
-                %a{:href => "https://github.com/phfdonda"}
+        .title.poppins.bold
+          .subtitle.poppins.bold
+            Pedro
+          Donda
+        %p.my-5
+          Hello!
+          %br
+          I'm a FullStack Web Developer with a few tools in his box.
+          %br
+          You have a website you want done, let's talk!
+
+        .socials.container
+          %p.bold
+            You can also find me here:
+          .icons.container-lg.bg-dark.py-4.py-lg-2
+            %a{:href => "https://github.com/phfdonda"}
               %img.icon{:alt => "github", :src => "images/github.svg"}/
             %a{:href => "https://www.linkedin.com/in/pedro-donda/"}
               %img.icon{:alt => "linkedin", :src => "images/linkedin.svg"}/
@@ -60,11 +58,17 @@
                   Story Weavers
 
                 %img.card-img-top(src="images/storyWEavers-home.png" alt="")
-                .icons.p-3
-                  %img.icon(alt="html" src="images/html5.svg")
-                  %img.icon(alt="html" src="images/css3.svg")
-                  %img.icon(alt="html" src="images/ruby.svg")
-                  %img.icon(alt="html" src="images/rails.svg")
+                .badges.d-flex.my-3
+                  %span.badge.badge-secondary.p-2
+                    HTML/CSS
+                  %span.badge.badge-secondary.p-2
+                    Ruby
+                  %span.badge.badge-secondary.p-2
+                    Rails
+                  %span.badge.badge-secondary.p-2
+                    Capybara
+                  %span.badge.badge-secondary.p-2
+                    RSpec
 
                 .check-project.text-center
                   %a.btn.btn-secondary.btn-lg.col-md-8
@@ -73,14 +77,18 @@
             .card.my-2.bg-dark.text-white
               .card-body
                 %h2.card-title
-                  Card Title
+                  Adopt Meow
 
                 %img.card-img-top(src="images/adoptmeow.jpg" alt="")
-                .icons.p-3
-                  %img.icon(alt="html" src="images/html5.svg")
-                  %img.icon(alt="html" src="images/css3.svg")
-                  %img.icon(alt="html" src="images/ruby.svg")
-                  %img.icon(alt="html" src="images/rails.svg")
+                .badges.d-flex.my-3
+                  %span.badge.badge-secondary.p-2
+                    HTML/CSS
+                  %span.badge.badge-secondary.p-2
+                    Ruby
+                  %span.badge.badge-secondary.p-2
+                    Capybara
+                  %span.badge.badge-secondary.p-2
+                    RSpec
                 .check-project.text-center
                   %a.btn.btn-secondary.btn-lg.col-md-8
                     Check this project
@@ -90,19 +98,25 @@
                 %h2.card-title
                   Card Title
                 %img.card-img-top(src="images/storyWEavers-home.png" alt="")
-                .icons.p-3
-                  %img.icon(alt="html" src="images/html5.svg")
-                  %img.icon(alt="html" src="images/css3.svg")
-                  %img.icon(alt="html" src="images/ruby.svg")
+                .badges.d-flex.my-3
+                  %span.badge.badge-secondary.p-2
+                    HTML/CSS
+                  %span.badge.badge-secondary.p-2
+                    Ruby
+                  %span.badge.badge-secondary.p-2
+                    Capybara
+                  %span.badge.badge-secondary.p-2
+                    RSpec
                 .check-project.text-center
                   %a.btn.btn-secondary.btn-lg.col-md-8
                     Check this project
       %div#about.container-fluid.jumbotron
         .row
-          %h1.my-4.display-4
-            About me
-          %p
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus aperiam doloribus cupiditate, vero, consequatur quae distinctio sequi at esse quibusdam soluta explicabo, debitis voluptatum veniam quia autem excepturi ipsam iusto?
+          .col
+            %h1.my-4.display-4
+              About me
+            %p
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus aperiam doloribus cupiditate, vero,
         .row
           .col-md
             .card.bg-dark.text-white.my-2
@@ -148,21 +162,32 @@
                     Remote Work
       %div#contact.container-fluid.jumbotron
         .row
-          .col.col-12.col-md-6
+          .col.col-12.col-lg-5
             %h1.my-4.display-4
-              Let's make it happen!
-            %p
-              So, you want a website that is beautiful AND works? I'm game, so let's talk. Send me a message and we'll make it happen!
+              Let's make it
+              %br
+              %span.display-2
+                happen!
+          .col.col-12.col-lg-3
+            %p.text-lg-right
+              So, you want a website
+              %br
+              that is beautiful AND works?
+              %br
+              Send me a message, tell me how you want it, and together we will see it come to life!
 
-            %form(action="/" method="post")
+          .col.col-12.col-lg-4.d-flex.justify-content-lg-start
+            %form.card.p-3.bg-dark(action="/" method="post")
               .form-group
                 %input#clientName.form-control(type="text" placeholder="Your name")
               .form-group
                 %input#clientEmail.form-control(type="email" placeholder="Your email")
-                %small.form-text.text-muted
+                %small.form-text.text-white
                   We'll never share your email with anyone else, rest assured.
               .form-group
                 %textarea.form-control(placeholder="Tell me! What do you have in mind?")
               .form-group
-                .btn.btn-secondary(type="submit")
+                .btn.btn-secondary.align-self-end(type="submit")
                   Submit
+    %footer.p-4.bg-dark.text-white.text-center.d-flex.thin.poppins
+      © 2020 Copyright: Pedro Donda <br>Done in Brazil with &#10084;

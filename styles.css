@@ -2,6 +2,10 @@
 @import "https://fonts.googleapis.com/css2?family=Playfair+Display+SC@1&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;700&display=swap";
 
+a:hover{
+  text-decoration: none;
+}
+
 h1{
   line-height: 0.2rem;
 }
@@ -12,10 +16,21 @@ p{
   line-height: 7vmin;
 }
 
+footer{
+  align-items: center;
+  justify-content: center;
+}
 
+.col-12{
+  display:flex;
+  justify-content: space-around;
+}
+
+.badges{
+  justify-content: space-around;
+}
 
 .jumbotron{
-  min-height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -46,6 +61,9 @@ p{
   font-family: 'Poppins', sans-serif;
 }
 
+.thin{
+  font-weight: 200;
+}
 
 .normal{
   font-weight: 500;

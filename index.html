@@ -8,55 +8,48 @@
 <title>Document</title>
 </head>
 <body>
-<div class='navbar navbar-expand-lg navbar-light bg-light sticky-top'>
-<a class='navbar-brand' href='#'>
+<div class='navbar navbar-expand-lg navbar-light bg-light sticky-top m-0'>
+<div class='row d-flex container-fluid'>
+<div class='col-1'>
+<a class='navbar-brand m-0' href='#'>
 <img>
 PD
 </img>
 </a>
-<a class='btn-light' href='#porfolio'>
+</div>
+<div class='col-10 poppins bold d-flex align-items-center justify-content-around justify-content-lg-end'>
+<a class='btn-light mx-lg-3' href='#portfolio'>
 Portfolio
 </a>
-<a class='btn-light' href='#about'>
+<a class='btn-light mx-lg-3' href='#about'>
 About
 </a>
-<a class='btn-light' href='#contact'>
+<a class='btn-light mx-lg-3' href='#contact'>
 Contact
 </a>
 </div>
+</div>
+</div>
 <main class='m-3'>
 <div class='jumbotron'>
-<div class='row'>
-<div class='col'>
-<div class='title poppins bold mt-3 mx-auto ml-lg-0'>
+<div class='title poppins bold'>
 <div class='subtitle poppins bold'>
 Pedro
 </div>
 Donda
 </div>
-</div>
-</div>
-<div class='row'>
-<div class='col col-md-8'>
-<p class='my-5text-center'>
+<p class='my-5'>
 Hello!<br>
-I'm a Full-Stack developer with a few cards up his sleeve.<br>
-I can help you build a product, feature or website. Look through some of my work and experience! <br>
-If you like what you see and have project you need coded, don’t hesitate to contact me.
+I'm a FullStack Web Developer with a few tools in his box. <br>You have a website you want done, let's talk!
 </p>
-</div>
-</div>
-<div class='row'>
-<div class='col'>
 <div class='socials container'>
 <p class='bold'>
 You can also find me here:
 </p>
 <div class='icons container-lg bg-dark py-4 py-lg-2'>
-<a href='https://github.com/phfdonda'></a>
-</div>
+<a href='https://github.com/phfdonda'>
 <img alt='github' class='icon' src='images/github.svg'>
-</div>
+</a>
 <a href='https://www.linkedin.com/in/pedro-donda/'>
 <img alt='linkedin' class='icon' src='images/linkedin.svg'>
 </a>
@@ -80,11 +73,22 @@ My Portfolio
 Story Weavers
 </h2>
 <img alt='' class='card-img-top' src='images/storyWEavers-home.png'>
-<div class='icons p-3'>
-<img alt='html' class='icon' src='images/html5.svg'>
-<img alt='html' class='icon' src='images/css3.svg'>
-<img alt='html' class='icon' src='images/ruby.svg'>
-<img alt='html' class='icon' src='images/rails.svg'>
+<div class='badges d-flex my-3'>
+<span class='badge badge-secondary p-2'>
+HTML/CSS
+</span>
+<span class='badge badge-secondary p-2'>
+Ruby
+</span>
+<span class='badge badge-secondary p-2'>
+Rails
+</span>
+<span class='badge badge-secondary p-2'>
+Capybara
+</span>
+<span class='badge badge-secondary p-2'>
+RSpec
+</span>
 </div>
 <div class='check-project text-center'>
 <a class='btn btn-secondary btn-lg col-md-8'>
@@ -98,14 +102,22 @@ Check this project
 <div class='card my-2 bg-dark text-white'>
 <div class='card-body'>
 <h2 class='card-title'>
-Card Title
+Adopt Meow
 </h2>
 <img alt='' class='card-img-top' src='images/adoptmeow.jpg'>
-<div class='icons p-3'>
-<img alt='html' class='icon' src='images/html5.svg'>
-<img alt='html' class='icon' src='images/css3.svg'>
-<img alt='html' class='icon' src='images/ruby.svg'>
-<img alt='html' class='icon' src='images/rails.svg'>
+<div class='badges d-flex my-3'>
+<span class='badge badge-secondary p-2'>
+HTML/CSS
+</span>
+<span class='badge badge-secondary p-2'>
+Ruby
+</span>
+<span class='badge badge-secondary p-2'>
+Capybara
+</span>
+<span class='badge badge-secondary p-2'>
+RSpec
+</span>
 </div>
 <div class='check-project text-center'>
 <a class='btn btn-secondary btn-lg col-md-8'>
@@ -122,10 +134,19 @@ Check this project
 Card Title
 </h2>
 <img alt='' class='card-img-top' src='images/storyWEavers-home.png'>
-<div class='icons p-3'>
-<img alt='html' class='icon' src='images/html5.svg'>
-<img alt='html' class='icon' src='images/css3.svg'>
-<img alt='html' class='icon' src='images/ruby.svg'>
+<div class='badges d-flex my-3'>
+<span class='badge badge-secondary p-2'>
+HTML/CSS
+</span>
+<span class='badge badge-secondary p-2'>
+Ruby
+</span>
+<span class='badge badge-secondary p-2'>
+Capybara
+</span>
+<span class='badge badge-secondary p-2'>
+RSpec
+</span>
 </div>
 <div class='check-project text-center'>
 <a class='btn btn-secondary btn-lg col-md-8'>
@@ -139,12 +160,14 @@ Check this project
 </div>
 <div class='container-fluid jumbotron' id='about'>
 <div class='row'>
+<div class='col'>
 <h1 class='my-4 display-4'>
 About me
 </h1>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus aperiam doloribus cupiditate, vero, consequatur quae distinctio sequi at esse quibusdam soluta explicabo, debitis voluptatum veniam quia autem excepturi ipsam iusto?
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus aperiam doloribus cupiditate, vero,
 </p>
+</div>
 </div>
 <div class='row'>
 <div class='col-md'>
@@ -220,20 +243,32 @@ Remote Work
 </div>
 <div class='container-fluid jumbotron' id='contact'>
 <div class='row'>
-<div class='col col-12 col-md-6'>
+<div class='col col-12 col-lg-5'>
 <h1 class='my-4 display-4'>
-Let's make it happen!
+Let's make it
+<br>
+<span class='display-2'>
+happen!
+</span>
 </h1>
-<p>
-So, you want a website that is beautiful AND works? I'm game, so let's talk. Send me a message and we'll make it happen!
+</div>
+<div class='col col-12 col-lg-3'>
+<p class='text-lg-right'>
+So, you want a website
+<br>
+that is beautiful AND works?
+<br>
+Send me a message, tell me how you want it, and together we will see it come to life!
 </p>
-<form action='/' method='post'>
+</div>
+<div class='col col-12 col-lg-4 d-flex justify-content-lg-start'>
+<form action='/' class='card p-3 bg-dark' method='post'>
 <div class='form-group'>
 <input class='form-control' id='clientName' placeholder='Your name' type='text'>
 </div>
 <div class='form-group'>
 <input class='form-control' id='clientEmail' placeholder='Your email' type='email'>
-<small class='form-text text-muted'>
+<small class='form-text text-white'>
 We'll never share your email with anyone else, rest assured.
 </small>
 </div>
@@ -241,7 +276,7 @@ We'll never share your email with anyone else, rest assured.
 <textarea class='form-control' placeholder='Tell me! What do you have in mind?'></textarea>
 </div>
 <div class='form-group'>
-<div class='btn btn-secondary' type='submit'>
+<div class='btn btn-secondary align-self-end' type='submit'>
 Submit
 </div>
 </div>
@@ -250,5 +285,8 @@ Submit
 </div>
 </div>
 </main>
+<footer class='p-4 bg-dark text-white text-center d-flex thin poppins'>
+© 2020 Copyright: Pedro Donda <br>Done in Brazil with &#10084;
+</footer>
 </body>
 </html>
