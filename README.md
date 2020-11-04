@@ -5,10 +5,6 @@
 
   <p align="center">
     Hi! This is my portfolio site. For now is just an MVP project, only enough to be called a portfolio, but I'll improve it soon.
-    <br />
-    Meanwhile, you can reach me through my LinkedIn:
-    <br>
-    <a href="https://www.linkedin.com/in/pedro-donda/"><img src="images/linkedin.svg"></a>
   </p>
 </p>
 
