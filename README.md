@@ -30,4 +30,4 @@
   * [AdoptMeow](https://github.com/phfdonda/Capstone_HTML-CSS_Directory_of_Schools)<br>
     The layout of a page that allows people to find new furry cat friends. Just looks. For now.
   * [TNW Clone Page](https://github.com/phfdonda/Building-with-Responsive-Design)<br>
-    A clone of the TDN news page. Focus is building large content in responsive way.
+    A clone of the TNW news page. Focus is building large content in responsive way.
